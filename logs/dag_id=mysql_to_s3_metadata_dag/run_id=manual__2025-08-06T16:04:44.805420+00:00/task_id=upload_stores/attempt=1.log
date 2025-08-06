@@ -1,0 +1,79 @@
+[2025-08-06T16:04:48.110+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-08-06T16:04:48.130+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mysql_to_s3_metadata_dag.upload_stores manual__2025-08-06T16:04:44.805420+00:00 [queued]>
+[2025-08-06T16:04:48.139+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mysql_to_s3_metadata_dag.upload_stores manual__2025-08-06T16:04:44.805420+00:00 [queued]>
+[2025-08-06T16:04:48.140+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-08-06T16:04:48.153+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): upload_stores> on 2025-08-06 16:04:44.805420+00:00
+[2025-08-06T16:04:48.167+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=590) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-08-06T16:04:48.176+0000] {standard_task_runner.py:63} INFO - Started process 598 to run task
+[2025-08-06T16:04:48.178+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'mysql_to_s3_metadata_dag', 'upload_stores', 'manual__2025-08-06T16:04:44.805420+00:00', '--job-id', '60', '--raw', '--subdir', 'DAGS_FOLDER/extract/mysql_to_s3_dag.py', '--cfg-path', '/tmp/tmpwk_ajtvi']
+[2025-08-06T16:04:48.181+0000] {standard_task_runner.py:91} INFO - Job 60: Subtask upload_stores
+[2025-08-06T16:04:48.210+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-08-06T16:04:48.253+0000] {task_command.py:426} INFO - Running <TaskInstance: mysql_to_s3_metadata_dag.upload_stores manual__2025-08-06T16:04:44.805420+00:00 [running]> on host 3bffe12d583b
+[2025-08-06T16:04:48.469+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='mysql_to_s3_metadata_dag' AIRFLOW_CTX_TASK_ID='upload_stores' AIRFLOW_CTX_EXECUTION_DATE='2025-08-06T16:04:44.805420+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-06T16:04:44.805420+00:00'
+[2025-08-06T16:04:48.474+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-08-06T16:04:48.522+0000] {base.py:84} INFO - Using connection ID 'aws_default' for task execution.
+[2025-08-06T16:04:48.523+0000] {connection_wrapper.py:384} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.
+[2025-08-06T16:04:48.527+0000] {connection_wrapper.py:401} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.
+[2025-08-06T16:04:49.131+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-08-06T16:04:49.133+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/boto3/s3/transfer.py", line 371, in upload_file
+    future.result()
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/futures.py", line 103, in result
+    return self._coordinator.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/futures.py", line 266, in result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/tasks.py", line 139, in __call__
+    return self._execute_main(kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/tasks.py", line 162, in _execute_main
+    return_value = self._main(**kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/s3transfer/upload.py", line 764, in _main
+    client.put_object(Bucket=bucket, Key=key, Body=body, **extra_args)
+  File "/home/airflow/.local/lib/python3.12/site-packages/botocore/client.py", line 553, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/botocore/client.py", line 1009, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (ExpiredToken) when calling the PutObject operation: The provided token has expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/helpers/extract_load_functions.py", line 35, in upload_to_s3
+    s3.load_file(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 135, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 89, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 1098, in load_file
+    client.upload_file(filename, bucket_name, key, ExtraArgs=extra_args, Config=self.transfer_config)
+  File "/home/airflow/.local/lib/python3.12/site-packages/boto3/s3/inject.py", line 145, in upload_file
+    return transfer.upload_file(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/boto3/s3/transfer.py", line 377, in upload_file
+    raise S3UploadFailedError(
+boto3.exceptions.S3UploadFailedError: Failed to upload /opt/***/temp/stores.csv to favorita-retail-pipeline/raw/stores.csv: An error occurred (ExpiredToken) when calling the PutObject operation: The provided token has expired.
+[2025-08-06T16:04:49.148+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=mysql_to_s3_metadata_dag, task_id=upload_stores, run_id=manual__2025-08-06T16:04:44.805420+00:00, execution_date=20250806T160444, start_date=20250806T160448, end_date=20250806T160449
+[2025-08-06T16:04:49.178+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 60 for task upload_stores (Failed to upload /opt/***/temp/stores.csv to favorita-retail-pipeline/raw/stores.csv: An error occurred (ExpiredToken) when calling the PutObject operation: The provided token has expired.; 598)
+[2025-08-06T16:04:49.228+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-08-06T16:04:49.253+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

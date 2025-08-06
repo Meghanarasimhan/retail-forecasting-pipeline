@@ -1,0 +1,23 @@
+[2025-08-06T16:04:45.985+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-08-06T16:04:45.994+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mysql_to_s3_metadata_dag.extract_train manual__2025-08-06T16:04:44.805420+00:00 [queued]>
+[2025-08-06T16:04:45.998+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mysql_to_s3_metadata_dag.extract_train manual__2025-08-06T16:04:44.805420+00:00 [queued]>
+[2025-08-06T16:04:45.998+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-08-06T16:04:46.012+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_train> on 2025-08-06 16:04:44.805420+00:00
+[2025-08-06T16:04:46.029+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=574) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-08-06T16:04:46.034+0000] {standard_task_runner.py:63} INFO - Started process 584 to run task
+[2025-08-06T16:04:46.029+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'mysql_to_s3_metadata_dag', 'extract_train', 'manual__2025-08-06T16:04:44.805420+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/extract/mysql_to_s3_dag.py', '--cfg-path', '/tmp/tmp6vnxdsys']
+[2025-08-06T16:04:46.039+0000] {standard_task_runner.py:91} INFO - Job 53: Subtask extract_train
+[2025-08-06T16:04:46.070+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-08-06T16:04:46.123+0000] {task_command.py:426} INFO - Running <TaskInstance: mysql_to_s3_metadata_dag.extract_train manual__2025-08-06T16:04:44.805420+00:00 [running]> on host 3bffe12d583b
+[2025-08-06T16:04:46.303+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='mysql_to_s3_metadata_dag' AIRFLOW_CTX_TASK_ID='extract_train' AIRFLOW_CTX_EXECUTION_DATE='2025-08-06T16:04:44.805420+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-06T16:04:44.805420+00:00'
+[2025-08-06T16:04:46.304+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-08-06T16:04:46.315+0000] {base.py:84} INFO - Using connection ID 'mysql_local' for task execution.
+[2025-08-06T16:04:46.346+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:243 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2025-08-06T16:05:02.679+0000] {logging_mixin.py:188} INFO - Extracted train to /opt/***/temp/train.csv
+[2025-08-06T16:05:02.683+0000] {logging_mixin.py:188} INFO - [LOG] Total row count extracted in the train is 3000888
+[2025-08-06T16:05:03.207+0000] {python.py:237} INFO - Done. Returned value was: /opt/***/temp/train.csv
+[2025-08-06T16:05:03.212+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-08-06T16:05:03.307+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=mysql_to_s3_metadata_dag, task_id=extract_train, run_id=manual__2025-08-06T16:04:44.805420+00:00, execution_date=20250806T160444, start_date=20250806T160445, end_date=20250806T160503
+[2025-08-06T16:05:03.362+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-08-06T16:05:03.386+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-08-06T16:05:03.387+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

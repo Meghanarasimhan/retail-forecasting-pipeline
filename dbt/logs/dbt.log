@@ -1,0 +1,120 @@
+[0m19:15:14.936259 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11183ef00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1119e9df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1119e9b20>]}
+
+
+============================== 19:15:14.940007 | e2e62ebc-b855-4a3d-b332-cb4aa0a1b500 ==============================
+[0m19:15:14.940007 [info ] [MainThread]: Running with dbt=1.10.6
+[0m19:15:14.940292 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/meghashreebl/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init retail_dbt', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:15:14.947449 [info ] [MainThread]: Creating dbt configuration folder at /Users/meghashreebl/.dbt
+[0m19:15:14.948219 [debug] [MainThread]: Starter project path: /opt/anaconda3/lib/python3.12/site-packages/dbt/include/starter_project
+[0m19:15:14.951215 [info ] [MainThread]: 
+Your new dbt project "retail_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:15:14.951383 [info ] [MainThread]: Setting up your profile.
+[0m19:31:04.265067 [info ] [MainThread]: Profile retail_dbt written to /Users/meghashreebl/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:31:04.367787 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 949.473, "process_in_blocks": "0", "process_kernel_time": 0.57997, "process_mem_max_rss": "188088320", "process_out_blocks": "0", "process_user_time": 3.167085}
+[0m19:31:04.368467 [debug] [MainThread]: Command `dbt init` succeeded at 19:31:04.368365 after 949.48 seconds
+[0m19:31:04.369245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14708f7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111a1a480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14716bf50>]}
+[0m19:31:04.369772 [debug] [MainThread]: Flushing usage events
+[0m19:31:04.993974 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:39:43.887459 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10200bb00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1040f0770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e21a90>]}
+
+
+============================== 19:39:43.890947 | c7216e7f-01d1-4a49-9c01-60e95e0457ad ==============================
+[0m19:39:43.890947 [info ] [MainThread]: Running with dbt=1.10.6
+[0m19:39:43.891249 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/meghashreebl/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:39:43.900589 [info ] [MainThread]: dbt version: 1.10.6
+[0m19:39:43.900768 [info ] [MainThread]: python version: 3.12.7
+[0m19:39:43.900892 [info ] [MainThread]: python path: /opt/anaconda3/bin/python
+[0m19:39:43.901007 [info ] [MainThread]: os info: macOS-15.5-arm64-arm-64bit
+[0m19:39:44.773244 [info ] [MainThread]: Using profiles dir at /Users/meghashreebl/.dbt
+[0m19:39:44.773489 [info ] [MainThread]: Using profiles.yml file at /Users/meghashreebl/.dbt/profiles.yml
+[0m19:39:44.773644 [info ] [MainThread]: Using dbt_project.yml file at /Users/meghashreebl/retail_forecasting_pipeline/dbt/dbt_project.yml
+[0m19:39:44.774005 [info ] [MainThread]: adapter type: snowflake
+[0m19:39:44.774141 [info ] [MainThread]: adapter version: 1.10.0
+[0m19:39:44.774277 [info ] [MainThread]: Configuration:
+[0m19:39:44.774397 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:39:44.774514 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:39:44.774630 [info ] [MainThread]: Required dependencies:
+[0m19:39:44.774774 [debug] [MainThread]: Executing "git --help"
+[0m19:39:44.809806 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:39:44.810246 [debug] [MainThread]: STDERR: "b''"
+[0m19:39:44.810407 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:39:44.810581 [info ] [MainThread]: Connection:
+[0m19:39:44.810743 [info ] [MainThread]:   account: AVC30110.us-east-1
+[0m19:39:44.810858 [info ] [MainThread]:   user: meghanarasimhan
+[0m19:39:44.810967 [info ] [MainThread]:   database: RETAIL_DB
+[0m19:39:44.811079 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m19:39:44.811182 [info ] [MainThread]:   role: admin
+[0m19:39:44.811284 [info ] [MainThread]:   schema: MODELED
+[0m19:39:44.811390 [info ] [MainThread]:   authenticator: None
+[0m19:39:44.811491 [info ] [MainThread]:   oauth_client_id: None
+[0m19:39:44.811590 [info ] [MainThread]:   query_tag: None
+[0m19:39:44.811692 [info ] [MainThread]:   client_session_keep_alive: False
+[0m19:39:44.811792 [info ] [MainThread]:   host: None
+[0m19:39:44.811892 [info ] [MainThread]:   port: None
+[0m19:39:44.811988 [info ] [MainThread]:   proxy_host: None
+[0m19:39:44.812088 [info ] [MainThread]:   proxy_port: None
+[0m19:39:44.812185 [info ] [MainThread]:   protocol: None
+[0m19:39:44.812281 [info ] [MainThread]:   connect_retries: 1
+[0m19:39:44.812379 [info ] [MainThread]:   connect_timeout: None
+[0m19:39:44.812477 [info ] [MainThread]:   retry_on_database_errors: False
+[0m19:39:44.812575 [info ] [MainThread]:   retry_all: False
+[0m19:39:44.812670 [info ] [MainThread]:   insecure_mode: False
+[0m19:39:44.812764 [info ] [MainThread]:   reuse_connections: True
+[0m19:39:44.812862 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m19:39:44.813176 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m19:39:44.884986 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m19:39:44.938374 [debug] [MainThread]: Using snowflake connection "debug"
+[0m19:39:44.938546 [debug] [MainThread]: On debug: select 1 as id
+[0m19:39:44.938669 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:39:46.307027 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m19:39:46.307359 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m19:39:46.307676 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m19:39:46.307986 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:39:46.308214 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/meghashreebl/retail_forecasting_pipeline/dbt/dbt_project.yml> not found
+
+[0m19:39:46.308448 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250003 (08001): 404 Not Found: post https://AVC30110.us-east-1.snowflakecomputing.com:443/session/v1/login-request?request_id=9fb7beb5-bc80-4725-b853-6b8b854ce5f4&databaseName=RETAIL_DB&schemaName=MODELED&warehouse=COMPUTE_WH&roleName=admin&request_guid=77752bbf-5bc4-42af-bc5e-6d03b7fe483b
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:39:46.314347 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 2.4646738, "process_in_blocks": "0", "process_kernel_time": 0.436043, "process_mem_max_rss": "215367680", "process_out_blocks": "0", "process_user_time": 2.857084}
+[0m19:39:46.314773 [debug] [MainThread]: Command `dbt debug` failed at 19:39:46.314695 after 2.47 seconds
+[0m19:39:46.315011 [debug] [MainThread]: Connection 'debug' was left open.
+[0m19:39:46.315202 [debug] [MainThread]: On debug: No close available on handle
+[0m19:39:46.315446 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a156d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11e370140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104db2d50>]}
+[0m19:39:46.315730 [debug] [MainThread]: Flushing usage events
+[0m19:39:46.544756 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:54:42.096768 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1040034d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c55f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c55c40>]}
+
+
+============================== 20:54:42.100355 | be6dcdbc-0520-4cd5-8b28-6923457766f9 ==============================
+[0m20:54:42.100355 [info ] [MainThread]: Running with dbt=1.10.6
+[0m20:54:42.100640 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/meghashreebl/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init retail_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m20:54:42.109726 [info ] [MainThread]: A project called retail_dbt already exists here.
+[0m20:54:42.111571 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.051161833, "process_in_blocks": "0", "process_kernel_time": 0.142189, "process_mem_max_rss": "108183552", "process_out_blocks": "0", "process_user_time": 0.635743}
+[0m20:54:42.111842 [debug] [MainThread]: Command `dbt init` succeeded at 20:54:42.111799 after 0.05 seconds
+[0m20:54:42.111989 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1040034d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103c43cb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a7c440>]}
+[0m20:54:42.112144 [debug] [MainThread]: Flushing usage events
+[0m20:54:42.650031 [debug] [MainThread]: An error was encountered while trying to flush usage events
