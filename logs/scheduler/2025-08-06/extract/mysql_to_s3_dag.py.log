@@ -3411,3 +3411,13 @@ MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.0.1' (115)")
 [2025-08-06T16:31:18.049+0000] {logging_mixin.py:188} INFO - [2025-08-06T16:31:18.049+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-08-06T16:31:18.053+0000] {logging_mixin.py:188} INFO - [2025-08-06T16:31:18.053+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_s3_metadata_dag to None, run_after=None
 [2025-08-06T16:31:18.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract/mysql_to_s3_dag.py took 0.471 seconds
+[2025-08-06T16:31:48.472+0000] {processor.py:161} INFO - Started process (PID=973) to work on /opt/airflow/dags/extract/mysql_to_s3_dag.py
+[2025-08-06T16:31:48.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract/mysql_to_s3_dag.py for tasks to queue
+[2025-08-06T16:31:48.477+0000] {logging_mixin.py:188} INFO - [2025-08-06T16:31:48.476+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract/mysql_to_s3_dag.py
+[2025-08-06T16:31:48.871+0000] {logging_mixin.py:188} INFO - [2025-08-06T16:31:48.871+0000] {base.py:84} INFO - Using connection ID 'mysql_local' for task execution.
+[2025-08-06T16:31:48.885+0000] {logging_mixin.py:188} INFO - [2025-08-06T16:31:48.885+0000] {sql.py:470} INFO - Running statement: SELECT table_name, s3_path FROM etl_table_config WHERE is_active = TRUE, parameters: None
+[2025-08-06T16:31:48.887+0000] {logging_mixin.py:188} INFO - [2025-08-06T16:31:48.886+0000] {sql.py:479} INFO - Rows affected: 5
+[2025-08-06T16:31:48.889+0000] {processor.py:840} INFO - DAG(s) 'mysql_to_s3_metadata_dag' retrieved from /opt/airflow/dags/extract/mysql_to_s3_dag.py
+[2025-08-06T16:31:48.896+0000] {logging_mixin.py:188} INFO - [2025-08-06T16:31:48.896+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T16:31:48.902+0000] {logging_mixin.py:188} INFO - [2025-08-06T16:31:48.902+0000] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_s3_metadata_dag to None, run_after=None
+[2025-08-06T16:31:48.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract/mysql_to_s3_dag.py took 0.450 seconds
