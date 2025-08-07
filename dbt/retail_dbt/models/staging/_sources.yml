@@ -1,0 +1,37 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw retail data loaded from MySQL via Airflow"
+    database: RETAIL_DB
+    schema: RAW
+    
+    tables:
+      - name: RAW_TRAIN
+        description: "Historical sales training data"
+      - name: RAW_STORES
+        description: "Store information"
+      - name: RAW_OIL
+        description: "Daily oil prices"
+      - name: RAW_TRANSACTIONS
+        description: "Transaction counts per store"
+      - name: RAW_HOLIDAY_EVENTS
+        description: "Holiday calendar"
+
+models:
+  - name: stg_sales
+    columns:
+      - name: sales_id
+        tests:
+          - unique
+          - not_null
+      - name: store_nbr
+        tests:
+          - not_null
+  
+  - name: stg_stores
+    columns:
+      - name: store_nbr
+        tests:
+          - unique
+          - not_null

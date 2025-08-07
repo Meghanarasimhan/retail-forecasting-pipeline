@@ -516,3 +516,570 @@
 [2025-08-07T00:37:16.781+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:16.781+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-08-07T00:37:16.795+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:16.795+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
 [2025-08-07T00:37:16.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.092 seconds
+[2025-08-07T00:37:47.273+0000] {processor.py:161} INFO - Started process (PID=8895) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:37:47.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:37:47.285+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:47.284+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:37:47.305+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:37:47.335+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:47.335+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:37:47.350+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:47.350+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:37:47.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.114 seconds
+[2025-08-07T00:38:17.843+0000] {processor.py:161} INFO - Started process (PID=8910) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:38:17.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:38:17.851+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:38:17.850+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:38:17.870+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:38:17.901+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:38:17.900+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:38:17.915+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:38:17.915+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:38:17.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.095 seconds
+[2025-08-07T00:38:48.434+0000] {processor.py:161} INFO - Started process (PID=8925) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:38:48.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:38:48.444+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:38:48.443+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:38:48.465+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:38:48.497+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:38:48.497+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:38:48.507+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:38:48.507+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:38:48.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.096 seconds
+[2025-08-07T00:39:19.121+0000] {processor.py:161} INFO - Started process (PID=8940) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:39:19.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:39:19.128+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:39:19.127+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:39:19.147+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:39:19.179+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:39:19.178+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:39:19.192+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:39:19.192+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:39:19.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.094 seconds
+[2025-08-07T00:39:49.505+0000] {processor.py:161} INFO - Started process (PID=8955) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:39:49.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:39:49.510+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:39:49.509+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:39:49.520+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:39:49.540+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:39:49.540+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:39:49.547+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:39:49.547+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:39:49.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.061 seconds
+[2025-08-07T00:40:20.063+0000] {processor.py:161} INFO - Started process (PID=8970) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:40:20.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:40:20.068+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:40:20.068+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:40:20.090+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:40:20.127+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:40:20.127+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:40:20.138+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:40:20.137+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:40:20.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.103 seconds
+[2025-08-07T00:40:50.521+0000] {processor.py:161} INFO - Started process (PID=8985) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:40:50.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:40:50.524+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:40:50.524+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:40:50.532+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:40:50.550+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:40:50.550+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:40:50.557+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:40:50.557+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:40:50.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.048 seconds
+[2025-08-07T00:41:21.007+0000] {processor.py:161} INFO - Started process (PID=9000) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:41:21.010+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:41:21.014+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:41:21.014+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:41:21.035+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:41:21.067+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:41:21.067+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:41:21.081+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:41:21.081+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:41:21.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.100 seconds
+[2025-08-07T00:41:51.538+0000] {processor.py:161} INFO - Started process (PID=9015) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:41:51.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:41:51.545+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:41:51.544+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:41:51.566+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:41:51.604+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:41:51.604+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:41:51.616+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:41:51.616+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:41:51.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.103 seconds
+[2025-08-07T00:42:22.120+0000] {processor.py:161} INFO - Started process (PID=9030) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:42:22.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:42:22.128+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:42:22.128+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:42:22.144+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:42:22.172+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:42:22.171+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:42:22.183+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:42:22.183+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:42:22.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.086 seconds
+[2025-08-07T00:42:52.637+0000] {processor.py:161} INFO - Started process (PID=9045) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:42:52.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:42:52.643+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:42:52.642+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:42:52.661+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:42:52.689+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:42:52.688+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:42:52.699+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:42:52.699+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:42:52.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.083 seconds
+[2025-08-07T00:43:23.140+0000] {processor.py:161} INFO - Started process (PID=9060) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:43:23.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:43:23.147+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:43:23.146+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:43:23.166+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:43:23.195+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:43:23.194+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:43:23.207+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:43:23.207+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:43:23.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.093 seconds
+[2025-08-07T00:43:53.627+0000] {processor.py:161} INFO - Started process (PID=9075) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:43:53.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:43:53.636+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:43:53.635+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:43:53.654+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:43:53.689+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:43:53.689+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:43:53.705+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:43:53.705+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:43:53.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.099 seconds
+[2025-08-07T00:44:24.116+0000] {processor.py:161} INFO - Started process (PID=9090) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:44:24.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:44:24.123+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:44:24.122+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:44:24.137+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:44:24.159+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:44:24.158+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:44:24.170+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:44:24.170+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:44:24.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.078 seconds
+[2025-08-07T00:44:54.532+0000] {processor.py:161} INFO - Started process (PID=9105) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:44:54.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:44:54.536+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:44:54.536+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:44:54.570+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:44:54.591+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:44:54.591+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:44:54.599+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:44:54.599+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:44:54.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.087 seconds
+[2025-08-07T00:45:25.033+0000] {processor.py:161} INFO - Started process (PID=9120) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:45:25.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:45:25.038+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:45:25.037+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:45:25.046+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:45:25.059+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:45:25.059+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:45:25.065+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:45:25.065+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:45:25.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.050 seconds
+[2025-08-07T00:45:55.495+0000] {processor.py:161} INFO - Started process (PID=9135) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:45:55.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:45:55.499+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:45:55.498+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:45:55.509+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:45:55.523+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:45:55.523+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:45:55.529+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:45:55.529+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:45:55.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.049 seconds
+[2025-08-07T00:46:25.911+0000] {processor.py:161} INFO - Started process (PID=9150) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:46:25.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:46:25.915+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:46:25.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:46:25.924+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:46:25.942+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:46:25.942+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:46:25.948+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:46:25.948+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:46:25.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.052 seconds
+[2025-08-07T00:46:56.399+0000] {processor.py:161} INFO - Started process (PID=9165) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:46:56.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:46:56.406+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:46:56.406+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:46:56.428+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:46:56.462+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:46:56.462+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:46:56.474+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:46:56.474+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:46:56.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.099 seconds
+[2025-08-07T00:47:26.957+0000] {processor.py:161} INFO - Started process (PID=9180) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:47:26.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:47:26.971+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:47:26.968+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:47:26.994+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:47:27.025+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:47:27.025+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:47:27.035+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:47:27.035+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:47:27.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.109 seconds
+[2025-08-07T00:47:57.507+0000] {processor.py:161} INFO - Started process (PID=9195) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:47:57.510+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:47:57.515+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:47:57.515+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:47:57.530+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:47:57.560+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:47:57.559+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:47:57.573+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:47:57.573+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:47:57.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.092 seconds
+[2025-08-07T00:48:27.952+0000] {processor.py:161} INFO - Started process (PID=9210) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:48:27.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:48:27.958+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:48:27.958+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:48:27.986+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:48:28.012+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:48:28.012+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:48:28.024+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:48:28.024+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:48:28.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.092 seconds
+[2025-08-07T00:48:58.472+0000] {processor.py:161} INFO - Started process (PID=9225) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:48:58.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:48:58.477+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:48:58.476+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:48:58.485+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:48:58.504+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:48:58.504+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:48:58.511+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:48:58.511+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:48:58.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.057 seconds
+[2025-08-07T00:49:28.844+0000] {processor.py:161} INFO - Started process (PID=9240) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:49:28.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:49:28.849+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:49:28.849+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:49:28.859+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:49:28.877+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:49:28.877+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:49:28.885+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:49:28.884+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:49:28.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.057 seconds
+[2025-08-07T00:49:59.289+0000] {processor.py:161} INFO - Started process (PID=9255) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:49:59.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:49:59.293+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:49:59.292+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:49:59.301+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:49:59.317+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:49:59.317+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:49:59.324+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:49:59.323+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:49:59.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.049 seconds
+[2025-08-07T00:50:29.821+0000] {processor.py:161} INFO - Started process (PID=9270) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:50:29.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:50:29.829+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:50:29.828+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:50:29.847+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:50:29.881+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:50:29.881+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:50:29.891+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:50:29.891+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:50:29.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.098 seconds
+[2025-08-07T00:51:00.340+0000] {processor.py:161} INFO - Started process (PID=9285) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:51:00.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:51:00.345+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:51:00.345+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:51:00.364+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:51:00.397+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:51:00.397+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:51:00.408+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:51:00.408+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:51:00.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.095 seconds
+[2025-08-07T00:51:30.846+0000] {processor.py:161} INFO - Started process (PID=9300) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:51:30.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:51:30.852+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:51:30.851+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:51:30.863+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:51:30.887+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:51:30.886+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:51:30.895+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:51:30.895+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:51:30.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.068 seconds
+[2025-08-07T00:52:01.338+0000] {processor.py:161} INFO - Started process (PID=9315) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:52:01.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:52:01.345+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:52:01.344+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:52:01.366+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:52:01.404+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:52:01.403+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:52:01.414+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:52:01.414+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:52:01.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.105 seconds
+[2025-08-07T00:52:31.872+0000] {processor.py:161} INFO - Started process (PID=9330) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:52:31.874+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:52:31.881+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:52:31.880+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:52:31.900+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:52:31.935+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:52:31.934+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:52:31.948+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:52:31.948+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:52:31.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.102 seconds
+[2025-08-07T00:53:02.438+0000] {processor.py:161} INFO - Started process (PID=9345) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:53:02.440+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:53:02.444+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:53:02.443+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:53:02.464+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:53:02.499+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:53:02.499+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:53:02.511+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:53:02.511+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:53:02.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.099 seconds
+[2025-08-07T00:53:32.863+0000] {processor.py:161} INFO - Started process (PID=9360) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:53:32.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:53:32.872+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:53:32.872+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:53:32.895+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:53:32.937+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:53:32.936+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:53:32.949+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:53:32.948+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:53:32.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.118 seconds
+[2025-08-07T00:54:03.465+0000] {processor.py:161} INFO - Started process (PID=9375) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:54:03.469+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:54:03.475+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:54:03.474+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:54:03.493+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:54:03.526+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:54:03.525+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:54:03.537+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:54:03.537+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:54:03.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.102 seconds
+[2025-08-07T00:54:33.853+0000] {processor.py:161} INFO - Started process (PID=9390) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:54:33.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:54:33.861+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:54:33.861+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:54:33.884+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:54:33.927+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:54:33.927+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:54:33.938+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:54:33.937+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:54:33.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.109 seconds
+[2025-08-07T00:55:04.448+0000] {processor.py:161} INFO - Started process (PID=9405) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:55:04.450+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:55:04.454+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:55:04.454+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:55:04.477+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:55:04.509+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:55:04.509+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:55:04.519+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:55:04.519+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:55:04.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.100 seconds
+[2025-08-07T00:55:34.949+0000] {processor.py:161} INFO - Started process (PID=9420) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:55:34.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:55:34.955+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:55:34.954+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:55:34.973+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:55:35.004+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:55:35.003+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:55:35.013+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:55:35.013+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:55:35.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.094 seconds
+[2025-08-07T00:56:05.532+0000] {processor.py:161} INFO - Started process (PID=9435) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:56:05.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:56:05.540+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:56:05.539+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:56:05.564+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:56:05.595+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:56:05.594+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:56:05.605+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:56:05.605+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:56:05.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.110 seconds
+[2025-08-07T00:56:36.049+0000] {processor.py:161} INFO - Started process (PID=9450) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:56:36.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:56:36.053+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:56:36.053+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:56:36.064+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:56:36.085+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:56:36.084+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:56:36.091+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:56:36.091+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:56:36.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.062 seconds
+[2025-08-07T00:57:06.591+0000] {processor.py:161} INFO - Started process (PID=9465) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:57:06.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:57:06.597+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:57:06.597+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:57:06.618+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:57:06.654+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:57:06.653+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:57:06.664+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:57:06.664+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:57:06.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.097 seconds
+[2025-08-07T00:57:37.123+0000] {processor.py:161} INFO - Started process (PID=9480) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:57:37.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:57:37.133+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:57:37.132+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:57:37.152+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:57:37.191+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:57:37.190+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:57:37.201+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:57:37.201+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:57:37.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.103 seconds
+[2025-08-07T00:58:07.704+0000] {processor.py:161} INFO - Started process (PID=9495) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:58:07.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:58:07.710+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:58:07.710+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:58:07.729+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:58:07.761+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:58:07.761+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:58:07.773+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:58:07.772+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:58:07.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.096 seconds
+[2025-08-07T00:58:38.185+0000] {processor.py:161} INFO - Started process (PID=9510) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:58:38.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:58:38.197+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:58:38.196+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:58:38.221+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:58:38.251+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:58:38.251+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:58:38.263+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:58:38.263+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:58:38.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.107 seconds
+[2025-08-07T00:59:08.708+0000] {processor.py:161} INFO - Started process (PID=9525) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:59:08.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:59:08.719+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:59:08.718+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:59:08.734+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:59:08.762+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:59:08.762+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:59:08.776+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:59:08.776+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:59:08.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.098 seconds
+[2025-08-07T00:59:39.203+0000] {processor.py:161} INFO - Started process (PID=9540) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:59:39.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T00:59:39.209+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:59:39.208+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:59:39.217+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T00:59:39.231+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:59:39.231+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:59:39.237+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:59:39.237+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T00:59:39.244+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.049 seconds
+[2025-08-07T01:00:09.648+0000] {processor.py:161} INFO - Started process (PID=9555) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:00:09.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:00:09.659+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:00:09.658+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:00:09.669+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:00:09.683+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:00:09.683+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:00:09.688+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:00:09.688+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:00:09.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.062 seconds
+[2025-08-07T01:00:40.114+0000] {processor.py:161} INFO - Started process (PID=9570) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:00:40.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:00:40.123+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:00:40.122+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:00:40.140+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:00:40.171+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:00:40.171+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:00:40.183+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:00:40.183+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:00:40.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.092 seconds
+[2025-08-07T01:01:10.687+0000] {processor.py:161} INFO - Started process (PID=9585) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:01:10.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:01:10.694+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:01:10.694+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:01:10.711+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:01:10.744+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:01:10.744+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:01:10.753+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:01:10.753+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:01:10.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.098 seconds
+[2025-08-07T01:01:41.324+0000] {processor.py:161} INFO - Started process (PID=9600) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:01:41.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:01:41.333+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:01:41.333+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:01:41.354+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:01:41.387+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:01:41.387+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:01:41.398+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:01:41.398+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:01:41.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.096 seconds
+[2025-08-07T01:02:11.836+0000] {processor.py:161} INFO - Started process (PID=9615) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:02:11.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:02:11.839+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:02:11.839+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:02:11.847+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:02:11.863+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:02:11.863+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:02:11.869+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:02:11.868+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:02:11.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.049 seconds
+[2025-08-07T01:02:42.259+0000] {processor.py:161} INFO - Started process (PID=9630) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:02:42.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:02:42.269+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:02:42.268+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:02:42.295+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:02:42.309+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:02:42.308+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:02:42.315+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:02:42.315+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:02:42.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.070 seconds
+[2025-08-07T01:03:12.728+0000] {processor.py:161} INFO - Started process (PID=9645) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:03:12.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:03:12.732+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:03:12.731+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:03:12.741+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:03:12.757+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:03:12.757+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:03:12.763+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:03:12.763+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:03:12.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.053 seconds
+[2025-08-07T01:03:43.191+0000] {processor.py:161} INFO - Started process (PID=9660) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:03:43.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:03:43.195+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:03:43.194+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:03:43.204+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:03:43.223+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:03:43.223+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:03:43.231+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:03:43.231+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:03:43.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.054 seconds
+[2025-08-07T01:04:13.671+0000] {processor.py:161} INFO - Started process (PID=9675) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:04:13.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:04:13.680+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:04:13.680+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:04:13.694+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:04:13.717+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:04:13.717+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:04:13.726+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:04:13.726+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:04:13.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.073 seconds
+[2025-08-07T01:04:44.195+0000] {processor.py:161} INFO - Started process (PID=9690) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:04:44.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:04:44.201+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:04:44.201+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:04:44.228+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:04:44.260+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:04:44.259+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:04:44.272+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:04:44.272+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:04:44.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.102 seconds
+[2025-08-07T01:05:14.617+0000] {processor.py:161} INFO - Started process (PID=9705) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:05:14.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:05:14.625+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:05:14.625+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:05:14.647+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:05:14.671+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:05:14.670+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:05:14.680+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:05:14.680+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:05:14.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.089 seconds
+[2025-08-07T01:05:45.111+0000] {processor.py:161} INFO - Started process (PID=9720) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:05:45.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:05:45.117+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:05:45.117+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:05:45.131+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:05:45.150+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:05:45.150+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:05:45.158+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:05:45.158+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:05:45.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.070 seconds
+[2025-08-07T01:06:15.564+0000] {processor.py:161} INFO - Started process (PID=9735) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:06:15.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:06:15.568+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:06:15.568+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:06:15.577+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:06:15.592+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:06:15.592+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:06:15.599+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:06:15.599+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:06:15.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.051 seconds
+[2025-08-07T01:06:45.943+0000] {processor.py:161} INFO - Started process (PID=9750) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:06:45.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:06:45.946+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:06:45.946+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:06:45.956+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:06:45.971+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:06:45.971+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:06:45.977+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:06:45.977+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:06:45.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.050 seconds
+[2025-08-07T01:07:16.337+0000] {processor.py:161} INFO - Started process (PID=9765) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:07:16.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:07:16.340+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:07:16.340+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:07:16.351+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:07:16.368+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:07:16.368+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:07:16.375+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:07:16.375+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:07:16.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.054 seconds
+[2025-08-07T01:07:46.763+0000] {processor.py:161} INFO - Started process (PID=9780) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:07:46.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:07:46.767+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:07:46.767+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:07:46.780+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:07:46.798+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:07:46.798+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:07:46.807+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:07:46.807+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:07:46.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.062 seconds
+[2025-08-07T01:08:17.215+0000] {processor.py:161} INFO - Started process (PID=9795) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:08:17.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:08:17.218+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:08:17.218+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:08:17.228+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:08:17.246+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:08:17.246+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:08:17.256+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:08:17.256+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:08:17.267+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.059 seconds
+[2025-08-07T01:08:47.628+0000] {processor.py:161} INFO - Started process (PID=9810) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:08:47.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:08:47.630+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:08:47.630+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:08:47.639+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:08:47.654+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:08:47.654+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:08:47.660+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:08:47.660+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:08:47.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.047 seconds
+[2025-08-07T01:09:18.183+0000] {processor.py:161} INFO - Started process (PID=9825) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:09:18.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:09:18.189+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:09:18.188+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:09:18.206+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:09:18.234+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:09:18.234+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:09:18.244+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:09:18.244+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:09:18.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.080 seconds
+[2025-08-07T01:09:48.818+0000] {processor.py:161} INFO - Started process (PID=9845) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:09:48.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:09:48.824+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:09:48.823+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:09:48.841+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:09:48.870+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:09:48.869+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:09:48.879+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:09:48.879+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:09:48.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.088 seconds
+[2025-08-07T01:10:19.427+0000] {processor.py:161} INFO - Started process (PID=9860) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:10:19.429+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:10:19.437+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:10:19.436+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:10:19.456+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:10:19.488+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:10:19.487+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:10:19.503+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:10:19.502+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:10:19.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.098 seconds
+[2025-08-07T01:10:50.002+0000] {processor.py:161} INFO - Started process (PID=9875) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:10:50.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:10:50.011+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:10:50.008+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:10:50.030+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:10:50.060+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:10:50.060+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:10:50.073+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:10:50.072+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:10:50.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.091 seconds
+[2025-08-07T01:11:20.665+0000] {processor.py:161} INFO - Started process (PID=9890) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:11:20.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:11:20.675+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:11:20.675+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:11:20.689+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:11:20.721+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:11:20.721+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:11:20.737+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:11:20.737+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:11:20.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.094 seconds
+[2025-08-07T01:11:51.245+0000] {processor.py:161} INFO - Started process (PID=9905) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:11:51.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:11:51.255+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:11:51.254+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:11:51.273+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:11:51.302+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:11:51.302+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:11:51.314+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:11:51.314+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:11:51.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.093 seconds
+[2025-08-07T01:12:21.815+0000] {processor.py:161} INFO - Started process (PID=9920) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:12:21.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:12:21.829+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:12:21.828+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:12:21.853+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:12:21.886+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:12:21.885+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:12:21.898+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:12:21.898+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:12:21.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.118 seconds
+[2025-08-07T01:12:52.304+0000] {processor.py:161} INFO - Started process (PID=9935) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:12:52.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:12:52.312+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:12:52.311+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:12:52.327+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:12:52.360+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:12:52.360+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:12:52.371+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:12:52.371+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:12:52.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.096 seconds
+[2025-08-07T01:13:22.855+0000] {processor.py:161} INFO - Started process (PID=9950) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:13:22.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:13:22.860+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:13:22.860+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:13:22.882+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:13:22.912+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:13:22.912+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:13:22.922+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:13:22.922+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:13:22.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.093 seconds
+[2025-08-07T01:13:53.325+0000] {processor.py:161} INFO - Started process (PID=9965) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:13:53.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:13:53.330+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:13:53.330+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:13:53.339+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:13:53.355+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:13:53.355+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:13:53.361+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:13:53.361+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:13:53.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.050 seconds
+[2025-08-07T01:14:23.825+0000] {processor.py:161} INFO - Started process (PID=9980) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:14:23.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:14:23.829+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:14:23.828+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:14:23.838+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:14:23.853+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:14:23.852+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:14:23.858+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:14:23.858+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:14:23.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.048 seconds
+[2025-08-07T01:14:54.255+0000] {processor.py:161} INFO - Started process (PID=9995) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:14:54.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:14:54.259+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:14:54.259+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:14:54.269+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:14:54.287+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:14:54.287+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:14:54.294+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:14:54.294+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:14:54.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.058 seconds
+[2025-08-07T01:15:24.775+0000] {processor.py:161} INFO - Started process (PID=10010) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:15:24.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:15:24.783+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:15:24.782+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:15:24.804+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:15:24.832+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:15:24.832+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:15:24.842+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:15:24.842+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:15:24.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.099 seconds
+[2025-08-07T01:15:55.273+0000] {processor.py:161} INFO - Started process (PID=10025) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:15:55.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:15:55.278+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:15:55.277+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:15:55.287+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:15:55.303+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:15:55.303+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:15:55.309+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:15:55.309+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:15:55.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.051 seconds
+[2025-08-07T01:16:25.748+0000] {processor.py:161} INFO - Started process (PID=10040) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:16:25.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:16:25.753+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:16:25.753+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:16:25.767+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:16:25.781+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:16:25.781+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:16:25.787+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:16:25.787+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:16:25.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.055 seconds
+[2025-08-07T01:16:56.182+0000] {processor.py:161} INFO - Started process (PID=10055) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:16:56.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:16:56.185+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:16:56.185+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:16:56.193+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:16:56.207+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:16:56.207+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:16:56.214+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:16:56.214+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:16:56.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.047 seconds
+[2025-08-07T01:17:26.672+0000] {processor.py:161} INFO - Started process (PID=10070) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:17:26.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:17:26.682+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:17:26.681+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:17:26.700+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:17:26.729+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:17:26.728+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:17:26.740+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:17:26.740+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:17:26.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.096 seconds
+[2025-08-07T01:17:57.187+0000] {processor.py:161} INFO - Started process (PID=10085) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:17:57.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:17:57.198+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:17:57.196+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:17:57.218+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:17:57.258+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:17:57.257+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:17:57.275+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:17:57.274+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:17:57.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.115 seconds
+[2025-08-07T01:18:27.712+0000] {processor.py:161} INFO - Started process (PID=10100) to work on /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:18:27.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/test_snowflake_conn.py for tasks to queue
+[2025-08-07T01:18:27.715+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:18:27.715+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:18:27.724+0000] {processor.py:840} INFO - DAG(s) 'test_snowflake_conn' retrieved from /opt/airflow/dags/load/test_snowflake_conn.py
+[2025-08-07T01:18:27.740+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:18:27.739+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T01:18:27.745+0000] {logging_mixin.py:188} INFO - [2025-08-07T01:18:27.745+0000] {dag.py:3954} INFO - Setting next_dagrun for test_snowflake_conn to None, run_after=None
+[2025-08-07T01:18:27.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/test_snowflake_conn.py took 0.046 seconds
