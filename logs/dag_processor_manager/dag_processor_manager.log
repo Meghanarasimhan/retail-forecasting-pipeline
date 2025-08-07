@@ -10753,3 +10753,13 @@ File Path                                         PID    Runtime      # DAGs    
 /opt/airflow/dags/load/test_snowflake_conn.py                              1           0  0.16s           2025-08-07T00:36:46
 /opt/airflow/dags/extract/mysql_to_s3_dag.py                               1           0  0.12s           2025-08-07T00:36:47
 ================================================================================
+[2025-08-07T00:37:29.943+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load/s3_to_snowflake_loader.py                           1           0  0.18s           2025-08-07T00:37:02
+/opt/airflow/dags/load/test_snowflake_conn.py                              1           0  0.16s           2025-08-07T00:37:16
+/opt/airflow/dags/extract/mysql_to_s3_dag.py                               1           0  0.10s           2025-08-07T00:37:17
+================================================================================

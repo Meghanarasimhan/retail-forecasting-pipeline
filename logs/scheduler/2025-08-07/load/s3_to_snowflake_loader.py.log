@@ -1058,3 +1058,16 @@ SyntaxError: f-string: expecting '!', or ':', or '}'
 [2025-08-07T00:37:02.597+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:02.597+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-08-07T00:37:02.606+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:02.606+0000] {dag.py:3954} INFO - Setting next_dagrun for s3_to_snowflake_loader to None, run_after=None
 [2025-08-07T00:37:02.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/s3_to_snowflake_loader.py took 0.123 seconds
+[2025-08-07T00:37:33.039+0000] {processor.py:161} INFO - Started process (PID=8890) to work on /opt/airflow/dags/load/s3_to_snowflake_loader.py
+[2025-08-07T00:37:33.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load/s3_to_snowflake_loader.py for tasks to queue
+[2025-08-07T00:37:33.046+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:33.046+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load/s3_to_snowflake_loader.py
+[2025-08-07T00:37:33.081+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:33.081+0000] {base.py:84} INFO - Using connection ID 'mysql_local' for task execution.
+[2025-08-07T00:37:33.107+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:33.107+0000] {sql.py:470} INFO - Running statement: SELECT table_name, s3_path FROM etl_table_config WHERE is_active = TRUE, parameters: None
+[2025-08-07T00:37:33.110+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:33.110+0000] {sql.py:479} INFO - Rows affected: 5
+[2025-08-07T00:37:33.115+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:33.115+0000] {base.py:84} INFO - Using connection ID 'aws_default' for task execution.
+[2025-08-07T00:37:33.115+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:33.115+0000] {connection_wrapper.py:384} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.
+[2025-08-07T00:37:33.115+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:33.115+0000] {connection_wrapper.py:401} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.
+[2025-08-07T00:37:33.135+0000] {processor.py:840} INFO - DAG(s) 's3_to_snowflake_loader' retrieved from /opt/airflow/dags/load/s3_to_snowflake_loader.py
+[2025-08-07T00:37:33.147+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:33.147+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-07T00:37:33.159+0000] {logging_mixin.py:188} INFO - [2025-08-07T00:37:33.159+0000] {dag.py:3954} INFO - Setting next_dagrun for s3_to_snowflake_loader to None, run_after=None
+[2025-08-07T00:37:33.169+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load/s3_to_snowflake_loader.py took 0.144 seconds
